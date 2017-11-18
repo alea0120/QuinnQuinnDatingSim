@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/MainMenu.unity
     guid: 6341b6485b6ae764da5c37fa839e9fd3
   - enabled: 1
+    path: Assets/Interaction0.unity
+    guid: 30b790698e8cd53468b63146b4dc5ca5
+  - enabled: 1
     path: Assets/Interaction1.unity
     guid: 1d21c3ae1735be143b7ed603c7ee32e9

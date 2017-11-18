@@ -51,11 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BeginLevel1.cs" />
-     <Compile Include="Assets\DebugReturnToStart.cs" />
-     <Compile Include="Assets\Menu_Buttons.cs" />
-     <Compile Include="Assets\Scene_Change.cs" />
-     <Compile Include="Assets\TextBoxUpdate.cs" />
+     <Compile Include="Assets\Scripts\BeginLevel1.cs" />
+     <Compile Include="Assets\Scripts\DebugReturnToStart.cs" />
+     <Compile Include="Assets\Scripts\Menu_Buttons.cs" />
+     <Compile Include="Assets\Scripts\progressionScript.cs" />
+     <Compile Include="Assets\Scripts\Scene_Change.cs" />
+     <Compile Include="Assets\Scripts\TextBoxUpdate.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

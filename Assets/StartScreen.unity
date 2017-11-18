@@ -213,7 +213,12 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 464462108}
+      objectReference: {fileID: 464462110}
+    - target: {fileID: 114682547027832438, guid: 22adb6f8da493474f92d5a374b36a8ce,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: gotoNextLevel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22adb6f8da493474f92d5a374b36a8ce, type: 2}
   m_IsPrefabParent: 0
@@ -226,6 +231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 464462109}
   - component: {fileID: 464462108}
+  - component: {fileID: 464462110}
   m_Layer: 0
   m_Name: UI Manager
   m_TagString: Untagged
@@ -257,6 +263,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &464462110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 464462107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f9c9669bf500da42a3dc7f3dbaa3a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1030069601
 GameObject:
   m_ObjectHideFlags: 0
